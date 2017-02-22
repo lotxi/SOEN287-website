@@ -1,0 +1,230 @@
+/** Type Properties **/
+body {
+    font-family: Helvetica;
+    font-size: 13px;
+    color:#333;
+	background: #3d3d3d;
+}
+
+
+p {
+    padding: 10px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #378574;
+}
+
+
+
+input[type="text"], textarea{
+	padding: 5px 5px;
+	border: 2px solid black;
+	text-align: left;
+	color: black;
+	background-color: #FFFFFF  ;
+}
+
+input[type="text"] {
+	width:200px;
+	height:15px;
+}
+
+
+
+textarea{
+	resize: none;
+}
+
+select {
+	
+	width:200px;
+	padding: 5px 5px;
+	border: 2px solid black;
+	border-radius: 4px;
+	text-align: center;
+	vertical-align: text-top;
+	color: black;
+	background-color: #ffffff  ;
+	
+	
+	
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #378574;
+    border: 1px solid black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	text-shadow: 0px 0px black;
+	color: #BFDDD7;
+}
+
+button {
+	background-color: #378574;
+    border: 1px solid black;
+    padding: 15px 10px;
+    text-decoration: none;
+    margin: 0px;
+    cursor: pointer;
+	text-shadow: 0px 0px black;
+	color: #BFDDD7;
+}
+
+
+
+
+/** Properties for link styles **/
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #BFDDD7;	
+}
+
+
+a:hover, a:active {
+    text-decoration: none;
+	color: #BFDDD7;	
+}
+
+
+.leftMenu li a{
+	display: block;
+	color: #99C7BD;;	
+}
+
+.leftMenu li a:hover, .leftMenu li a.selected{
+	background-color: #BFDDD7;
+	color: #378574;
+}
+
+.leftMenu li{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+a.footer:link, a.footer:visited, a.footer:active {
+    color: #BFDDD7;
+}
+
+a.footer:active, a.footer:hover{
+    text-decoration: underline;
+}
+
+ul.products {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    background-color: #BFDDD7;
+}
+
+ul.products li {
+    width: 500px;
+	padding: 10px;
+	display: inline-block;
+    padding: 2px 5px;
+    border: 3px solid black;
+	border-radius: 5px;
+}
+
+.error {
+	color: red;
+}
+
+
+#mainDisplay a:link, #mainDisplay a:visited{
+	color: #00362C;
+	text-decoration: underline;
+}
+
+#mainDisplay a:active, #mainDisplay a:hover{
+	color: #00362C;
+	text-decoration: none;
+}
+
+/** ID properties for page layout **/
+
+#wrap {
+    margin: 0 auto;
+    width: 975px;
+}
+
+#headerwrap {
+    width: 975px;
+    float: left;
+}
+
+#header {
+    height: 100px;
+    background: #378574;
+    margin: 5px;
+	color: #99C7BD;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:5px;
+	text-align: center;
+	border: 2px solid #99C7BD;
+	
+}
+
+#maincontentwrap {
+    width: 775px;
+    float: left;
+    margin: 0 auto;
+}
+
+#maincontent {
+	border-radius:5px;
+	background-color: #BFDDD7;
+    margin: 5px;
+	color: #378574;
+	border: 2px solid #99C7BD;
+	text-align: center;
+	min-height: 150px;
+}
+
+#menuwrap {
+    width: 200px;
+    float: left;
+    margin: 0 auto;
+	height: 100%;
+}
+
+#menu {
+    background-color: #378574;
+	color: #99C7BD;
+	padding: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    margin: 5px;
+	border: 2px solid #99C7BD;
+	border-radius:5px;
+}
+
+#footerwrap {
+    width: 975px;
+    float: left;
+}
+
+#footer {
+	border: 2px solid #BFDDD7;
+    height: 40px;
+    margin: 5px;
+	color: #BFDDD7;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#price {
+	width:60px;
+	height:15px;
+}
